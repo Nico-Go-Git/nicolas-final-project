@@ -1,0 +1,21 @@
+{% extends '_templates/base.njk' %}
+
+{% set relative_path = "../" %}
+
+{% block page_title %}{{ print_name }}{% endblock %}
+
+{% block page_description %}{{ print_name }} by Dolores Martinez{% endblock %}
+
+{% block content %}
+  <article class="container">
+    <div class="row">
+      <div class="col-sm-4">
+          <img src="../img/placeholder.png" alt="" class="img-fluid mb-4">
+      </div>
+      <div class="col-sm-8">
+          <h1>{{ print_name }}</h1>
+          <p>{{ description }}</p>
+      </div>
+    </div>
+  </article>
+{% endblock %}
