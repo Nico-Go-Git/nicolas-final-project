@@ -1,0 +1,34 @@
+{
+  "personals": [
+    {
+      "slug": "statement",
+      "headline": "Artist Statement",
+      "post": [
+        {
+          "type": "text",
+          "value": "My work aims at representing domestic items as an emotional exploration of what I have left behind. The representation of the tangible, here and now, that can trigger a feeling or a memory."
+        },
+        {
+          "type": "text",
+          "value": "Works like “Mi Mesa” place me at a happy family dinner, “My Kitchen” depicts the utensils we use when cooking together in any family gathering. The various editions of “mi mate” connect me to my Argentinean friends and my heritage."
+        },
+        {
+          "type": "text",
+          "value": "I work essentially in printmaking. The idea of producing multiples allows me to generate connections. People drawn by the same picture but engaging with it in different ways. A connection they don’t know exists."
+        },
+        {
+          "type": "text",
+          "value": "I prefer to work on relief. Carving a piece of wood or linoleum is almost meditative; it allows me to feel what I am creating. With each wood chip removed I uncover more of myself. When rolling the ink on a plate I unveil the full image, becoming a reality. Then I pass it through the press and slowly and, somewhat anxiously, I peel up the paper to uncover my final work. Even though these are repetitive movements I feel the excitement, surprise and relief with every piece."
+        },
+        {
+          "type": "text",
+          "value": "I am currently experimenting with collage, adding texture to my pieces through Chine-collé, knitted items, fabric and stitches."
+        },
+        {
+          "type": "text",
+          "value": "But mostly I bring portions of my previous printings into a new composition. I feel I am creating a collection of memories, or perhaps a glimpse into the future."
+        }
+      ]
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "files": [
     {
-      "fileId": "1RgMhjtkXlbbf9uzSzy_xPRKwxcVZIZqVytgM_JoU4E4",
+      "fileId": "18MdURnEDGlIqv8YRvIzwW2OQc9HrEYKSpTRT6cWzTeI",
       "type": "doc",
-      "name": "library"
+      "name": "personal"
     },
     {
       "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
@@ -28,6 +28,13 @@
       "array": "works",
       "slug": "slug",
       "path": "works"
+    },
+    {
+      "template": "bake-personal",
+      "data": "personal",
+      "array": "personals",
+      "slug": "slug",
+      "path": "statement"
     }
   ]
 }
