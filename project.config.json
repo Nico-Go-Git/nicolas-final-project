@@ -6,11 +6,6 @@
       "name": "personal"
     },
     {
-      "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
-      "type": "sheet",
-      "name": "bookstores"
-    },
-    {
       "fileId": "1aJvUqY-JMaUgbMIuiyJH1ApeSRJDBwSD4E_lXib_6-k",
       "type": "sheet",
       "name": "events"
@@ -32,7 +27,7 @@
     {
       "template": "bake-personal",
       "data": "personal",
-      "array": "personals",
+      "array": "statements",
       "slug": "slug",
       "path": "statement"
     }

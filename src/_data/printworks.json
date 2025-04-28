@@ -1,19 +1,94 @@
 {
   "works": [
     {
-      "print_name": "Mi Mate",
-      "slug": "mi-mate",
-      "description": "Lorem ipsum dolor sit amet."
+      "print_name": "MI MATE III",
+      "slug": "mi-mate-III",
+      "description": "Relief, Reduction. Mounted linoleum block. BFK Rives paper,  11 1/2\" x 15 1/2\". 2021",
+      "print_image": "mi-mate-III.jpg"
     },
     {
-      "print_name": "Meza",
-      "slug": "meza",
-      "description": "Lorem ipsum dolor sit amet."
+      "print_name": "MI MESA",
+      "slug": "mi-mesa",
+      "description": "Relief. Wood block. Mulberry paper, 18\" x 24\". 2022",
+      "print_image": "mi-mesa.jpg"
     },
     {
-      "print_name": "Totem",
-      "slug": "totem",
-      "description": "Lorem ipsum dolor sit amet."
+      "print_name": "MY KITCHEN #6",
+      "slug": "my-kitchen",
+      "description": "Intaglio. Etching on a copper plate & chine collé. BFK Rives paper, 8\" x 11\". 2022",
+      "print_image": "my-kitchen.jpg"
+    },
+    {
+      "print_name": "MY LINES",
+      "slug": "my-lines",
+      "description": "Collograph. Mixed media plate, inked a la poupée. BFK Rives paper, 15\" x 22\". 2022",
+      "print_image": "my-lines.jpg"
+    },
+    {
+      "print_name": "PIECE OF CORN",
+      "slug": "piece-of-corn",
+      "description": "Relief, Reduction. 2 mounted linoleum blocks. Mulberry paper, 14\" x 12\". 2024",
+      "print_image": "piece-of-corn.jpg"
+    },
+    {
+      "print_name": "TRAPITOS AL SOL",
+      "slug": "trapitos-al-sol",
+      "description": "Mokuhanga. Japanese shina woodblocks. Mosa Dosa paper, 8\" x 10\". 2024",
+      "print_image": "trapitos-al-sol.jpg"
+    },
+    {
+      "print_name": "WOMEN III",
+      "slug": "women-III",
+      "description": "Relief. Mounted linoleum plate. BFK Rives paper & chine collé with hand made and hand dyed paper 14\" X 12\". 2024",
+      "print_image": "women-III.jpg"
+    },
+    {
+      "print_name": "MIMATE",
+      "slug": "mimate",
+      "description": "Relief. MDF block. Mulberry paper. Image 12\" x 24\"; print 15 1/5\" x 28\". 2021",
+      "print_image": "mimate.jpg"
+    },
+    {
+      "print_name": "MIS FLORES",
+      "slug": "mis-flores",
+      "description": "Relief. MDF block. Mulberry paper, chine collé colored handmade paper, 24\" x 39\". 2022",
+      "print_image": "mis-flores.jpg"
+    },
+    {
+      "print_name": "TIMELESS II",
+      "slug": "timeless-II",
+      "description": "Relief. Mounted linoleum block. Reduction relief print. Stonehenge white paper, 14\" x 12\". 2022",
+      "print_image": "timeless-II.jpg"
+    },
+    {
+      "print_name": "FLOR DE MATE",
+      "slug": "flor-de-mate",
+      "description": "Collograph. Mixed media plate. Stonehenge Kraft paper, 12 1/2\" x 11\".  2022",
+      "print_image": "flor-de-mate.jpg"
+    },
+    {
+      "print_name": "ROLLING LUCKY",
+      "slug": "rolling-lucky",
+      "description": "Mokuhanga. Japanese shina woodblocks. Mosa Dosa paper, 8 1/2\" x 12 1/2\". 2022",
+      "print_image": "rolling-lucky.jpg"
+    },
+    {
+      "print_name": "MY MOTHER'S SHOES",
+      "slug": "my-mothers-shoes",
+      "description": "Screenprint. Multiple colores layers. Strathmore 400 mixedmedia, tan paper, 11\" x 14\". 2023",
+      "print_image": "my-mothers-shoes.jpg"
+    },
+    {
+      "print_name": "MY MOTHER'S SNEAKERS",
+      "slug": "my-mothers-sneakers",
+      "description": "Screenprint. Multiple colores layers. Strathmore 400 mixedmedia, white paper, 11\" x 14\". 2023",
+      "print_image": "my-mothers-sneakers.jpg"
+    },
+    {
+      "print_name": "PRETTY CLOSE II",
+      "slug": "pretty-close-II",
+      "description": "Etching. Drypoint on plexiglass plate. Mulberry chine collé and Rives BFK paper, 12\" x 11\".2024",
+      "print_image": "pretty-close-II.jpg"
     }
   ]
 }

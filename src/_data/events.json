@@ -20,5 +20,31 @@
       "event_name": "Print Austin PrintExpo",
       "event_link": "https://www.printexpo.org/"
     }
+  ],
+  "exhibitions": [
+    {
+      "day": 2024,
+      "event_name": "MFAH Glassell School of Arts Students Exhibition"
+    },
+    {
+      "day": 2024,
+      "event_name": "MFAH Glassell School of Arts Printmaking Studio Exhibition"
+    },
+    {
+      "day": 2023,
+      "event_name": "MFAH Glassell School of Arts Printmaking Studio Exhibition"
+    },
+    {
+      "day": 2023,
+      "event_name": "“ORANGE “Kinder Morgan Exhibition, Kinder Building Houston, TX. Collective Exhibit."
+    },
+    {
+      "day": 2022,
+      "event_name": "“BLUE” Kinder Morgan Exhibition, Kinder Building Houston TX. Collective Exhibit"
+    },
+    {
+      "day": 2022,
+      "event_name": "MFAH Glassell School of Arts Students Exhibition"
+    }
   ]
 }

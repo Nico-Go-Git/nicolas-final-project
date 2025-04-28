@@ -9,10 +9,16 @@
 {% block content %}
   <article class="container text-center">
     <div class="row justify-content-center">
-      <div class="col-md-6">
+      <div class="col-md-4">
         <h1 id="ArtistStatement">{{ headline }}</h1>
-        <p id="body">{{ prose(post) }}</p>
       </div>
+    </div>
+  </article>
+  <article class="container text-center my-2">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+          {{ prose(post) }}
+        </div>
     </div>
   </article>
 {% endblock %}

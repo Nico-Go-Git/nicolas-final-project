@@ -1,40 +1,42 @@
 <div class="container">
-  <div class = "row justify-content-center">
-    <div class="col-md-6">
-          <a class="navbar-brand" href="{{ relative_path }}index.html"><h1 class="text-center">Dolores Martinez</h1></a>
+  <div class = "row justify-content-center my-0">
+    <div class="col-md-6 py-0">
+          <a class="navbar-brand" href="{{ relative_path }}index.html"><h1 class="text-center titles fw-bold">Dolores Martinez</h1></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>      
     </div>
   </div>
+</div>
+<div class="container">
   <div class = "row justify-content-center">
     <div class="col-md-6">
-      <nav class="navbar navbar-expand-lg text-center border-bottom border-top border-body py-0">
-        <div class="container">
-          <a class="navbar-brand" href="{{ relative_path }}index.html">Events</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand justify-content-center" href="{{ relative_path }}statement/statement.html">About Me</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Works
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  {% for work in printworks.works %}
-                  <li><a class="dropdown-item" href="{{ relative_path }}works/{{ work.slug}}.html">{{work.print_name}}</a></li>
-                  {% endfor %}
-                </ul>
-              </li>
-            </ul>
+      <nav class="navbar navbar-expand-lg border-bottom border-top border-body py-0">
+          <div class="container">
+            <a class="navbar-brand ArtistStatement" href="{{ relative_path }}index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand ArtistStatement" href="{{ relative_path }}statement/statement.html">About Me</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle ArtistStatement" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Works
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    {% for work in printworks.works %}
+                    <li><a class="dropdown-item ArtistStatement" href="{{ relative_path }}works/{{ work.slug}}.html">{{work.print_name}}</a></li>
+                    {% endfor %}
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
       </nav>
-  </div>
+    </div>
   </div>
 </div>

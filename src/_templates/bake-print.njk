@@ -9,13 +9,34 @@
 {% block content %}
   <article class="container">
     <div class="row justify-content-center">
-      <div class="col-sm-2">
-          <img src="../img/placeholder.png" alt="" class="img-fluid mb-4">
+      <div class="col-sm-3">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="../img/{{print_image}}" alt="" class="img-fluid mb-4">
+          </button>
       </div>
-      <div class="col-sm-4">
-          <h1>{{ print_name }}</h1>
-          <p>{{ description }}</p>
+      <div class="col-sm-3">
+          <h1 class="titles">{{ print_name }}</h1>
+          <p class="body">{{ description }}</p>
       </div>
     </div>
   </article>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h1 class="modal-title fs-5 titles" id="exampleModalLabel">{{print_name}}</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../img/{{print_image}}" alt="" class="img-fluid mb-4">
+      </div>
+      <div class="modal-footer">
+        <p class="body">{{ description }}</p>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock %}
